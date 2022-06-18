@@ -44,6 +44,13 @@
   </url>
   
   <url>
+    <loc>http://123mfd.github.io/archives/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://123mfd.github.io/google1xxxxxxx0.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -58,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://123mfd.github.io/archives/index.html</loc>
+    <loc>http://123mfd.github.io/census/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -72,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://123mfd.github.io/census/index.html</loc>
+    <loc>http://123mfd.github.io/galleries/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -80,6 +87,20 @@
   
   <url>
     <loc>http://123mfd.github.io/friends/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://123mfd.github.io/resource/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://123mfd.github.io/tags/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -94,27 +115,6 @@
   
   <url>
     <loc>http://123mfd.github.io/music/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://123mfd.github.io/galleries/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://123mfd.github.io/tags/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://123mfd.github.io/resource/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
