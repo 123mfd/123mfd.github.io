@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="相册, Starmfd 软件工程 大数据 自动化测试">
+    <meta name="keywords" content="视频, Starmfd 软件工程 大数据 自动化测试">
     <meta name="description" content="本科 | 软件工程">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>相册 | Starfd</title>
+    <title>视频 | Starfd</title>
 
     <link rel="icon" type="image/png" href="https://s1.ax1x.com/2022/06/10/X6lIp9.png">
 
@@ -151,7 +151,7 @@
     <ul class="sub-nav menus_item_child ">
       
       <li>
-        <a href="/List/music">
+        <a href="/music">
           
           <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -160,7 +160,7 @@
       </li>
       
       <li>
-        <a href="/List/galleries">
+        <a href="/galleries">
           
           <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -169,7 +169,7 @@
       </li>
       
       <li>
-        <a href="/List/movies">
+        <a href="/movies">
           
           <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -341,7 +341,7 @@
               
                 <li>
 
-                  <a href="/List/music " style="margin-left:75px">
+                  <a href="/music " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
 			      
@@ -351,7 +351,7 @@
               
                 <li>
 
-                  <a href="/List/galleries " style="margin-left:75px">
+                  <a href="/galleries " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
 			      
@@ -361,7 +361,7 @@
               
                 <li>
 
-                  <a href="/List/movies " style="margin-left:75px">
+                  <a href="/movies " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
 			      
@@ -503,9 +503,7 @@
 
 </header>
 
-    <link rel="stylesheet" href="/css/gallery.css">
-
-<div class="bg-cover pd-header about-cover">
+    <div class="bg-cover pd-header about-cover">
     <div class="container">
     <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
@@ -546,31 +544,77 @@
 
     </div>
 </div>
+<!-- 视频页面 -->
+
+<style>
+@media only screen and (max-width: 601px) {
+    .movies-w {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .movies-h {
+        height: 90%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+/*中等屏幕下(平板类)的样式*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .movies-w {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .movies-h {
+        height: 95%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .movies-w {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .movies-h {
+        height: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+</style>
 
 <main class="content">
-    <div class="container">
-        
-        
-        <div class="gallery-wrapper row">
-            
-            
-            <div class="col s6 m4 l4 xl3 gallery-box">
-                <a href="./生活碎片" class="gallery-item" data-aos="zoom-in-up">
-                    <div class="gallery-cover-box" style="background-image: url(https://cdn.jsdelivr.net/gh/123mfd/blog-img@master/galleries/one/01.jpg)">
-                        <!--<img src="https://cdn.jsdelivr.net/gh/123mfd/blog-img@master/galleries/one/01.jpg" alt="img" class="gallery-cover-img">-->
-                    </div>
-                    <p class="gallery-name">
-                        生活碎片
-                    </p>
-                </a>
-            </div>
-            
-        </div>
-        
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+			<div>
+				<h1 style="text-align:center;">
+					📺
+					<span style="color:red;">看</span> 
+					<span style="color:rgb(255, 119, 0);">看</span> 
+					<span style="color:blue;">视</span>
+					<span style="color:green;">频</span>
+				</h1>
+			<div>
+				<div  class="movies-w" style="position: relative; padding-bottom: 75%;">
+				    <iframe class="movies-h" style=" 
+				    position: absolute; 
+				        width: 100%;
+					    left: 0; 
+					    top: 0;" 
+					    src="//player.bilibili.com/player.html?aid=897395126&cid=743619793&page=1" scrolling="no" border="0" 
+					    frameborder="no" 
+					    framespacing="0" 
+					    allowfullscreen="true"> 
+				    </iframe> 
+				    
+				</div>
+			</div>
+		</div>
     </div>
+</div>
 </main>
-
-
 
     <footer class="page-footer bg-color">
     
@@ -652,10 +696,6 @@
             </script>
             
             <br>
-            
-            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="http://www.beian.miit.gov.cn/" target="_blank">冀ICP备2022007129号-1</a>
-            </span>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
@@ -816,16 +856,6 @@ $(function () {
     <script src="/js/matery.js"></script>
 
     <!-- Baidu Analytics -->
-
-<script>
-    var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?576d38599a32ae9c3cb36f0831d55b7d";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
 
     <!-- Baidu Push -->
 
